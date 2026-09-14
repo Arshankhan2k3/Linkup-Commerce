@@ -14,3 +14,4 @@
 !/contracts/openapi-v1.yaml
 /AGENTS.md
 /mock-server/
+!/docs/ENGINEERING_STANDARDS.md
