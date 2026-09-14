@@ -1,0 +1,16 @@
+﻿/*
+!/.gitignore
+!/ARCHITECTURE.md
+!/docs/
+!/docs/API_ARCHITECTURE.md
+!/docs/API_DB_CONTRACT_MAP.md
+!/docs/DB_SCHEMA.md
+!/docs/BUSINESS_LOGIC.md
+!/docs/FINAL_SDR.md
+!/docs/STATUS.md
+!/docs/implementation/
+!/docs/implementation/IMPLEMENTATION_PLAN.md
+!/contracts/
+!/contracts/openapi-v1.yaml
+/AGENTS.md
+/mock-server/
