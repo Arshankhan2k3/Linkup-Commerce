@@ -1,16 +1,24 @@
-﻿/*
-!/.gitignore
-!/ARCHITECTURE.md
-!/docs/
-!/docs/API_ARCHITECTURE.md
-!/docs/API_DB_CONTRACT_MAP.md
-!/docs/DB_SCHEMA.md
-!/docs/BUSINESS_LOGIC.md
-!/docs/FINAL_SDR.md
-!/docs/STATUS.md
-!/docs/implementation/
-!/docs/implementation/IMPLEMENTATION_PLAN.md
-!/contracts/
-!/contracts/openapi-v1.yaml
-/AGENTS.md
-/mock-server/
+﻿# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+scratch/
+
+# OS files
+.DS_Store
+Thumbs.db

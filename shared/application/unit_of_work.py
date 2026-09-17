@@ -1,0 +1,13 @@
+from typing import Protocol
+
+
+class UnitOfWork(Protocol):
+    """
+    Unit of Work Protocol enforcing single-transaction ownership.
+    Repositories participate in the UoW's active session.
+    The application use case explicitly commits or rolls back.
+    """
+    async def __aenter__(self) -> "UnitOfWork": ...
+    async def __aexit__(self, exc_type, exc_val, exc_tb) -> None: ...
+    async def commit(self) -> None: ...
+    async def rollback(self) -> None: ...

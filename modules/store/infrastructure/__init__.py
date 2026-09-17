@@ -1,0 +1,1 @@
+"""Store infrastructure package."""
