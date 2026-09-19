@@ -32,7 +32,6 @@ async def _resolve_store_id(payload: dict, uow: SqlAlchemyUnitOfWork) -> UUID:
         )
     return store.store_id
 
-
 @router.get(
     "",
     response_model=AdminStoreResponse,
@@ -78,7 +77,6 @@ async def update_admin_store(
                 status_code=status.HTTP_404_NOT_FOUND,
                 detail="Store not found",
             )
-
         if body.name is not None:
             store.name = body.name.strip()
         if body.legal_name is not None:

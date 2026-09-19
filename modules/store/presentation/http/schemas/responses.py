@@ -20,7 +20,6 @@ class StorefrontStoreResponse(BaseModel):
 
 class AdminStoreResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
-
     store_id: UUID
     name: str
     legal_name: str | None = None

@@ -38,4 +38,21 @@ from modules.customers.infrastructure.db.models import (  # noqa: F401
     CustomerNoteModel,
 )
 
+# ---- Catalog --------------------------------------------------------------
+from modules.catalog.infrastructure.db.models import (
+    ProductModel,
+    ProductOptionModel,
+    ProductOptionValueModel,
+    ProductVariantModel,
+    VariantOptionValueModel,
+    MediaAssetModel,
+    ProductMediaModel,
+    CollectionModel,
+    CollectionProductModel,
+    TagModel,
+    ProductTagModel,
+    MetafieldDefinitionModel,
+    MetafieldModel,
+)
+
 __all__ = ["Base"]
